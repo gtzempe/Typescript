@@ -144,19 +144,3 @@
 // console.log(r.area());
 // console.log(c.describe());
 // console.log(r.describe());
-
-//1
-let userName: string = "Giorgos";
-let age: number = 40;
-let activeUser: boolean = true;
-
-//2
-let favoriteNumbers: number[] = [1, 3, 13];
-
-//3
-function userInfo(name: string, age: number, active: boolean): string {
-  return `${name} is ${age} years old and is currently ${
-    active ? "active" : "inactive"
-  }`;
-}
-console.log(userInfo(userName, age, activeUser));
